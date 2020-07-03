@@ -81,12 +81,10 @@
 }
 
 .content {
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: 100%;
     background: linear-gradient( rgba(0,0,0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/city.jpeg');
     background-repeat: no-repeat;
-
+    background-position: center;
 }
 
 
