@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.awesome {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-top: 106px;
+}
+
+.title__text {
+    font-size: 14px;
+    font-weight: 300;
+    color: #86878B;
+    margin-bottom: 90px;
+}
+
+.line {
+    border: 1.5px solid #FF8D2D;
+    width: 64px;
+    margin: 30px auto;
+}
+
+.wrapper {
+    width: 78%;
+    margin: 0 auto;
+}
+
+.card {
+    width: calc(100%/3.2);
+    display: inline-block;
+    margin-bottom: 76px;
+}
+
+.card__img  {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #FF8D2D;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 29px;
+    background-image: url(images/lightbulb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.images2 {
+    background-image: url(images/keyboard.png);
+}
+
+.images3 {
+    background-image: url(images/lightning.png);
+    background-size: 25px;
+}
+
+.card__title {
+    font-size: 20px;
+    margin: 25px auto;
+}
+
+.card__text {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #86878B;
+    padding: 0 11px;
+}
+
+.content {
+    background-size: 100%;
+    background: linear-gradient( rgba(0,0,0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/city.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.content__title {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding-top: 76px;
+}
+
+.content__line {
+    border: 1.5px solid #FFFFFF;
+    width: 64px;
+    margin: 25px auto;
+}
+
+.content__text {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 33px;
+}
+
+.button {
+    width: 135px;
+    height: 42px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-bottom: 62px;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+}
+
+.button:hover {
+    transition-duration: 0.2s;
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+    cursor: pointer;
+}
+
+.fotter {
+    background-color: black;
+}
+
+.fotter__icon {
+    margin-top: -5px;
+}
+
+.footer__text {
+    font-size: 12px;
+    color: white;
+    padding: 15px;
+}
+
+.svg__img {
+    width: 23px;
+    margin: 39px 10px 0;
+}
+
+.svg__img:hover {
+    background-color: red;
+}
