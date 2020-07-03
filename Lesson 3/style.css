@@ -5,7 +5,7 @@
 }
 
 .awesome {
-    width: 1400px;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
 }
@@ -80,12 +80,16 @@
     padding: 0 11px;
 }
 
-
+.black {
+    background-color: black;
+}
 .content {
-    background-image: url(images/city.png);
+    background-image: url(images/city.jpeg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
 }
+
 
 .content__title {
     color: #FFFFFF;
@@ -113,7 +117,7 @@
     background-color: transparent;
     border: 1px solid white;
     color: white;
-    margin-bottom: 66px;
+    margin-bottom: 63px;
     font-size: 15px;
     font-weight: bold;
     outline: none;
