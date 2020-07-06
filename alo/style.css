@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 500px;
+    height: 500px;
+    margin: 150px auto;
+    position: relative;
+}
+
+.block {
+    width: 70%;
+    height: 70%;
+    background-color: blue;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+.block:hover {
+    z-index: 3;
+}
+
+.block__in {
+    width: 40%;
+    height: 40%;
+    border-radius: 15%;
+    background-color: yellow;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 1;
+}
+
+.block__out {
+    width: 33%;
+    height: 33%;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.block__1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.block__1:hover {
+    background-color: thistle;
+    z-index: 2;
+}
+
+
+.block__2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.block__2:hover {
+    background-color: turquoise;
+    z-index: 2;
+}
+
+.block__3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.block__3:hover {
+    background-color: yellow;
+    z-index: 2;
+}
+
+.block__4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.block__4:hover {
+    background-color: red;
+    z-index: 2;
+}
